@@ -1789,7 +1789,6 @@ input, select, textarea {
 		.gallery.inactive article {
 			opacity: 0;
 		}
-
 			.gallery.inactive article.from-left {
 				-moz-transform: translateX(-14em);
 				-webkit-transform: translateX(-14em);
