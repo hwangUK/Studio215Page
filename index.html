@@ -10,6 +10,44 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* 모바일 환경에서의 반응형 스타일 */
+			@media screen and (max-width: 736px) {
+				p {
+					font-size: 90%;
+					word-break: keep-all;
+					line-height: 1.5;
+				}
+				.container {
+					padding: 0 15px;
+				}
+				br {
+					display: none;
+				}
+				#top .container p br {
+					display: none;
+				}
+				.popup-content {
+					width: 90% !important;
+					padding: 15px !important;
+					max-height: 80vh !important;
+					overflow-y: auto !important;
+				}
+				.popup-content h2 {
+					font-size: 1.3em !important;
+				}
+				.popup-content p {
+					font-size: 0.9em !important;
+				}
+				.col-12-small {
+					flex-basis: 100% !important;
+				}
+				.popup-content .row {
+					display: flex;
+					flex-direction: column;
+				}
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -66,7 +104,7 @@
 
 							<header>
 								<img src="images/CI_H.png" alt="스튜디오 215 로고" style="width: 70%; max-width: 500px; margin: 0 auto 2em auto;">
-								<p style="margin-bottom: 3em;">스튜디오215는 많은 사람들이 즐길 수 있는 재미있는 게임을 만드는 것을 목표로 하는 게임 개발사입니다.<br />
+								<p style="margin-bottom: 3em; word-break: keep-all; max-width: 100%; line-height: 1.6;">스튜디오215는 많은 사람들이 즐길 수 있는 재미있는 게임을 만드는 것을 목표로 하는 게임 개발사입니다.<br />
 									2022년 설립 이후, PC 및 모바일 게임을 장르의 경계를 두지 않고 개발하고 있습니다.<br />
 									<br />
 									우리는 효율적이고 창의적인 방식으로 게임을 개발합니다.<br />
@@ -89,15 +127,15 @@
 								<h2 style="text-align: left; margin-bottom: 2em; font-weight: 700; font-size: 2.2em; color: #111;"> 연혁</h2>
 							</header>
 
-							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222;">▶2025.05. 'Dream Abyss: Survivors' 2025 PlayX4 B2B/B2C 참가</p>
-							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222;">▶2024.05. '강철의 은하수' 2024 PlayX4 B2B 참가</p>
-							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222;">▶2023.12. 'Dark Matter (암흑물질)' 스팀 얼리액세스 출시</p>
-							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222;">▶2023.09. 'Dark Matter (암흑물질)' 스토브 출시 및 올해의 게임 top10 후보 선정</p>
-							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222;">▶2023.05. 'Dark Matter (암흑물질)' 2023 PlayX4 B2B 부스 참가</p>
-							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222;">▶2023.04. 2023년 충북글로벌게임센터 인디스타트업 제작지원 선정</p>
-							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222;">▶2022.06. 충북글로벌게임센터 입주</p>
-							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222;">▶2022.06. 2022년 충북글로벌게임센터 인디스타트업 제작지원 선정</p>
-							<p style="text-align: left; margin-bottom: 3em; font-weight: 500; color: #222;">▶2022.05. '암흑물질' 2022 PlayX4 B2B 참가</p>
+							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2025.05. 'Dream Abyss: Survivors' 2025 PlayX4 B2B/B2C 참가</p>
+							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2024.05. '강철의 은하수' 2024 PlayX4 B2B 참가</p>
+							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2023.12. 'Dark Matter (암흑물질)' 스팀 얼리액세스 출시</p>
+							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2023.09. 'Dark Matter (암흑물질)' 스토브 출시 및 올해의 게임 top10 후보 선정</p>
+							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2023.05. 'Dark Matter (암흑물질)' 2023 PlayX4 B2B 부스 참가</p>
+							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2023.04. 2023년 충북글로벌게임센터 인디스타트업 제작지원 선정</p>
+							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2022.06. 충북글로벌게임센터 입주</p>
+							<p style="text-align: left; margin-bottom: 1em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2022.06. 2022년 충북글로벌게임센터 인디스타트업 제작지원 선정</p>
+							<p style="text-align: left; margin-bottom: 3em; font-weight: 500; color: #222; word-break: keep-all; line-height: 1.4;">▶2022.05. '암흑물질' 2022 PlayX4 B2B 참가</p>
 
 						</div>
 					</section>
@@ -157,7 +195,7 @@
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">장르:</strong> RPG</p>
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">플랫폼:</strong> PC (Steam, Stove)</p>
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">출시일:</strong> 2023년 12월 (스팀 얼리액세스)</p>
-								<p style="margin-bottom: 20px; line-height: 1.6;">DarkMatter: The Strange Messenger는 픽셀풍 플랫폼 2D 액션RPG이며 맵을 탐험하면서 아이템 강화 및 스토리텔링 콘텐츠를 제공합니다. 다양한 물질들의 반응을 통해 무기를 강화하고 몬스터를 물리치는 독특한 게임 메커니즘을 제공합니다.</p>
+								<p style="margin-bottom: 20px; line-height: 1.6; word-break: keep-all;">DarkMatter: The Strange Messenger는 픽셀풍 플랫폼 2D 액션RPG이며 맵을 탐험하면서 아이템 강화 및 스토리텔링 콘텐츠를 제공합니다. 다양한 물질들의 반응을 통해 무기를 강화하고 몬스터를 물리치는 독특한 게임 메커니즘을 제공합니다.</p>
 								<div class="game-links" style="margin-top: 15px;">
 									<a href="https://store.steampowered.com/app/2202950/DarkMatter_The_Strange_Messenger/" target="_blank" class="button" style="background-color: #1b2838; color: #fff; margin-right: 10px; display: inline-block; margin-bottom: 10px;">Steam</a>
 									<a href="https://store.onstove.com/ko/games/1687" target="_blank" class="button" style="background-color: #e67e22; color: #fff; display: inline-block; margin-bottom: 10px;">Stove</a>
@@ -187,7 +225,7 @@
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">장르:</strong> 액션 로그라이크 RPG</p>
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">플랫폼:</strong> PC (Steam, Stove)</p>
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">출시일:</strong> 2025년 하반기</p>
-								<p style="margin-bottom: 20px; line-height: 1.6;">Dream Abyss : suvivors(가제)는 미소녀 서브컬처 뱀서라이크 장르 게임입니다.
+								<p style="margin-bottom: 20px; line-height: 1.6; word-break: keep-all;">Dream Abyss : suvivors(가제)는 미소녀 서브컬처 뱀서라이크 장르 게임입니다.
 									뱀서라이크 장르에 RPG요소를 결합하였습니다. 
 									스테이지를 클리어 해나갈때마다 스토리 이벤트가 발생하며 엔딩이 있습니다. 
 									주인공 릴리가 꿈속에 갇힌 동생 루미를 찾아나서는 몽환적인 여정을 담은 게임입니다.</p>
@@ -220,7 +258,7 @@
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">장르:</strong> 방치+수집형 RPG</p>
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">플랫폼:</strong> 모바일 (Android)</p>
 								<p style="margin-bottom: 12px;"><strong style="color: #ccc;">출시일:</strong> TBA</p>
-								<p style="margin-bottom: 20px; line-height: 1.6;">로봇소녀와 함께 황폐화된 지구를 구원해주세요!<br />
+								<p style="margin-bottom: 20px; line-height: 1.6; word-break: keep-all;">로봇소녀와 함께 황폐화된 지구를 구원해주세요!<br />
 									미소녀 동료들을 모아 강력한 덱을 구성하고 무한 성장하는 신개념 방치형 RPG!<br />
 									
 									강철의 은하수는 아포칼립스 세계관에서 펼쳐지는 아름다운 스토리와 3D액션을 느낄 수 있는 방치형 RPG입니다<br />
@@ -284,17 +322,17 @@
 							<div class="row">
 								<div class="col-6 col-12-mobile">
 									<article class="news-item" style="margin-bottom: 2em; border-bottom: 1px solid #ddd; padding-bottom: 1em;">
-										<h4 style="color: #333;">스튜디오215, 새 게임 'Dream Abyss: Survivors' 개발 소식</h4>
+										<h4 style="color: #333; word-break: keep-all;">스튜디오215, 새 게임 'Dream Abyss: Survivors' 개발 소식</h4>
 										<p class="date" style="color: #888; font-size: 0.9em;">2025.04.01</p>
-										<p>스튜디오215가 신작 로그라이크 액션 RPG 'Dream Abyss: Survivors'의 개발 소식을 공개했습니다. 2025년 하반기 출시 예정입니다.</p>
+										<p style="word-break: keep-all; line-height: 1.4;">스튜디오215가 신작 로그라이크 액션 RPG 'Dream Abyss: Survivors'의 개발 소식을 공개했습니다. 2025년 하반기 출시 예정입니다.</p>
 									</article>
 								</div>
 								
 								<div class="col-6 col-12-mobile">
 									<article class="news-item" style="margin-bottom: 2em; border-bottom: 1px solid #ddd; padding-bottom: 1em;">
-										<h4 style="color: #333;">'Dark Matter' 스팀 출시 1주년 기념 할인</h4>
+										<h4 style="color: #333; word-break: keep-all;">'Dark Matter' 스팀 출시 1주년 기념 할인</h4>
 										<p class="date" style="color: #888; font-size: 0.9em;">2024.12.19</p>
-										<p>스팀 얼리액세스 출시 1주년을 맞아 'Dark Matter'가 40% 할인된 가격으로 판매됩니다.</p>
+										<p style="word-break: keep-all; line-height: 1.4;">스팀 얼리액세스 출시 1주년을 맞아 'Dark Matter'가 40% 할인된 가격으로 판매됩니다.</p>
 									</article>
 								</div>
 							</div>
@@ -302,9 +340,9 @@
 							<div class="row">
 								<div class="col-6 col-12-mobile">
 									<article class="news-item" style="margin-bottom: 2em; border-bottom: 1px solid #ddd; padding-bottom: 1em;">
-										<h4 style="color: #333;">'강철의 은하수' 개발 소식</h4>
+										<h4 style="color: #333; word-break: keep-all;">'강철의 은하수' 개발 소식</h4>
 										<p class="date" style="color: #888; font-size: 0.9em;">2024.5.15</p>
-										<p>신작 모바일 게임 '강철의 은하수'의 개발 현황과 게임플레이 영상이 공개되었습니다.</p>
+										<p style="word-break: keep-all; line-height: 1.4;">신작 모바일 게임 '강철의 은하수'의 개발 현황과 게임플레이 영상이 공개되었습니다.</p>
 									</article>
 								</div>
 							</div>
@@ -320,7 +358,7 @@
 						<div class="container">
 							<header>
 								<h2 style="text-align: left; margin-bottom: 2em; font-weight: 700; font-size: 2.2em; color: #fff;">커뮤니티</h2>
-								<p style="margin-bottom: 2em; text-align: left;">스튜디오215와 함께 소통하고 게임 정보를 공유하세요.</p>
+								<p style="margin-bottom: 2em; text-align: left; word-break: keep-all;">스튜디오215와 함께 소통하고 게임 정보를 공유하세요.</p>
 							</header>
 
 							<div class="row">
@@ -330,7 +368,7 @@
 										<div style="margin-bottom: 1.5em;">
 											<i class="icon brands fa-youtube" style="font-size: 4em; color: #ff0000;"></i>
 										</div>
-										<p style="margin-bottom: 1.5em;">게임 트레일러, 개발 과정, 플레이 영상 등 다양한 컨텐츠를 확인하세요.</p>
+										<p style="margin-bottom: 1.5em; word-break: keep-all; line-height: 1.4;">게임 트레일러, 개발 과정, 플레이 영상 등 다양한 컨텐츠를 확인하세요.</p>
 										<a href="https://youtube.com/@studio.215?si=1JlFfBjj3_oW4-3e" target="_blank" class="button" style="background-color: #ff0000; color: #fff; border: none;">유튜브 방문하기</a>
 									</div>
 								</div>
@@ -340,7 +378,7 @@
 										<div style="margin-bottom: 1.5em;">
 											<i class="icon brands fa-discord" style="font-size: 4em; color: #7289da;"></i>
 										</div>
-										<p style="margin-bottom: 1.5em;">다른 플레이어들과 소통하고 개발자와 직접 대화할 수 있는 공간입니다.</p>
+										<p style="margin-bottom: 1.5em; word-break: keep-all; line-height: 1.4;">다른 플레이어들과 소통하고 개발자와 직접 대화할 수 있는 공간입니다.</p>
 										<a href="https://discord.gg/jrf85RQ5" target="_blank" class="button" style="background-color: #7289da; color: #fff; border: none;">디스코드 참여하기</a>
 									</div>
 								</div>
@@ -369,10 +407,14 @@
 
 							<div style="text-align: center; margin: 2em auto;">
 								<i class="icon solid fa-envelope" style="font-size: 3em; color: #333; margin-bottom: 0.5em;"></i>
-								<p style="font-size: 1.2em; margin-bottom: 0.5em;">이메일로 문의해주세요:</p>
+								<p style="font-size: 1.2em; margin-bottom: 0.5em; word-break: keep-all;">이메일로 문의해주세요:</p>
 								<a href="mailto:studio215company@gmail.com" style="font-size: 1.5em; color: #333; font-weight: 600; text-decoration: none; border-bottom: 1px dotted #666;">studio215company@gmail.com</a>
 								
-								<p style="margin-top: 2em; color: #666;">스튜디오215에 관심을 가져주셔서 감사합니다.<br>업무시간 내 최대한 빠른 답변 드리겠습니다.</p>
+								<p style="margin-top: 2em; color: #666; word-break: keep-all; line-height: 1.4;">스튜디오215에 관심을 가져주셔서 감사합니다.<br>업무시간 내 최대한 빠른 답변 드리겠습니다.</p>
+								
+								<div style="margin-top: 2em;">
+									<a href="mailto:studio215company@gmail.com" class="button" style="background-color: #2c2c2c; color: #fff; border: 1px solid #444; padding: 10px 20px; font-size: 1.1em;">문의하기</a>
+								</div>
 							</div>
 
 						</div>
@@ -385,13 +427,13 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>상호명: 스튜디오215</li>
-						<li>대표: 강한주</li>
-						<li>사업자등록번호: 653-13-02253</li>
-						<li>주소: 충북 청주시 청원구 상당로 314 청주첨단문화산업단지 2동 2층 G-22호</li>
-						<li>Email: studio215company@gmail.com</li>
-						<li>&copy; 2022. Studio215 Co. All right reserved.</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li style="word-break: keep-all; line-height: 1.4;">상호명: 스튜디오215</li>
+						<li style="word-break: keep-all; line-height: 1.4;">대표: 강한주</li>
+						<li style="word-break: keep-all; line-height: 1.4;">사업자등록번호: 653-13-02253</li>
+						<li style="word-break: keep-all; line-height: 1.4;">주소: 충북 청주시 청원구 상당로 314 청주첨단문화산업단지 2동 2층 G-22호</li>
+						<li style="word-break: keep-all; line-height: 1.4;">Email: studio215company@gmail.com</li>
+						<li style="word-break: keep-all; line-height: 1.4;">&copy; 2022. Studio215 Co. All right reserved.</li>
+						<li style="word-break: keep-all; line-height: 1.4;">Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 			</div>
